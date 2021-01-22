@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>React App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    <header>
+      
+    <div class="sidebar">
+      <div class="searchbar">
+ <input
+        id="name"
+        class="inp"
+        type="text"
+        placeholder="Search by Country Name"
+      />
+      <br>
+       <input
+        id="capital"
+        class="inp"
+        type="text"
+        placeholder="Search by Country Capital"
+      />
+      <br>
+       <input
+        id="language"
+        class="inp"
+        type="text"
+        placeholder="Search by Language"
+      />
+       <br>
+        <input
+        id="region"
+        class="inp"
+        type="text"
+        placeholder="Search by Region"
+      />
+      <br>
+        <input
+        id="dialnum"
+        class="inp"
+        type="text"
+        placeholder="Search by Dialling Number"
+      />
+      </div>
+     
+     
+        <h2>All the regions</h2>
+        <ul class="regionlist" id="regionList">
+          <li  class="reg">Africa</li>
+          <li  class="reg">Americas</li>
+          <li  class="reg">Asia</li>
+          <li  class="reg">Europe</li>
+          <li  class="reg">Oceania</li>
+        </ul>
+     
+    </div>
+	<div class="countryDetails" id="countryDetails">
+			<div class="container">
+				<button  id="back">
+				Back
+				</button>
+        <img src="" alt="" />
+        <br>
+				<div class="countryDetails-body"></div>
+			</div>
+		</div>
+  
+    <div class="content">
+      <section>
+        <div class="container countries" id="countries">
+          <h1>Loading...</h1>
+        </div>
+      </section>
+    </div>
+
+    <div id="root"></div>
+  </body>
+</html>
