@@ -137,7 +137,6 @@ function App() {
 
     getInnerText.forEach(data => {
       if (data.innerText.toLowerCase().includes(value.toLowerCase())) {
-        // .card -> .card-body -> .country-data
         data.parentElement.parentElement.style.display = 'block';
       } else {
         data.parentElement.parentElement.style.display = 'none';
@@ -151,7 +150,6 @@ function App() {
 
     getInnerText.forEach(data => {
       if (data.innerText.toLowerCase().includes(value.toLowerCase())) {
-        // .card -> .card-body -> .country-data
         data.parentElement.parentElement.style.display = 'block';
       } else {
         data.parentElement.parentElement.style.display = 'none';
@@ -164,7 +162,6 @@ function App() {
 
     getInnerText.forEach(data => {
       if (data.innerText.toLowerCase().includes(value.toLowerCase())) {
-        // .card -> .card-body -> .country-data
         data.parentElement.parentElement.style.display = 'block';
       } else {
         data.parentElement.parentElement.style.display = 'none';
@@ -177,7 +174,6 @@ function App() {
 
     getInnerText.forEach(data => {
       if (data.innerText.toLowerCase().includes(value.toLowerCase())) {
-        // .card -> .card-body -> .country-data
         data.parentElement.parentElement.style.display = 'block';
       } else {
         data.parentElement.parentElement.style.display = 'none';
@@ -190,7 +186,6 @@ function App() {
 
     getInnerText.forEach(data => {
       if (data.innerText.toLowerCase().includes(value.toLowerCase())) {
-        // .card -> .card-body -> .country-data
         data.parentElement.parentElement.style.display = 'block';
       } else {
         data.parentElement.parentElement.style.display = 'none';
